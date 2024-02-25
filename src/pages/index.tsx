@@ -5,8 +5,7 @@ export default function Home() {
     <>
       <main className="flex h-screen bg-[#152724] gap-2">
         <div className="flex h-full w-full bg-[#152724] gap-2">
-          <div className="h-full w-full bg-[#2C534A]">
-            {/* <h1 className="text-4xl font-bold text-white">Imagem do personagem</h1> */}
+          <div className="h-full w-fit golden-gradient p-2">
             <Image
               src="/druid.jpg"
               alt="Logo"
